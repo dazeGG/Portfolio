@@ -14,7 +14,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className={style["projects__cards-wrapper"]}>
+    <div className="wrapper">
       <div className={style.projects__cards}>
         {projects.map((project) => (
           <ProjectCard

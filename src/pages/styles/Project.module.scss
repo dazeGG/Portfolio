@@ -1,11 +1,6 @@
 @import "../../utils/colors.scss";
 
-.project-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: calc(100vh - 60px - 20px - 20px);
-
+.project {
   > * {
     width: 100%;
 
@@ -14,7 +9,7 @@
     }
   }
 
-  > .title {
+  > .project__title {
     font-size: 26px;
     display: flex;
     gap: 8px;
@@ -41,7 +36,7 @@
     }
   }
 
-  > .content {
+  > .project__content {
     font-size: 18px;
     padding: 20px 0;
 
@@ -77,7 +72,7 @@
     }
   }
 
-  > .links {
+  > .project__links {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
