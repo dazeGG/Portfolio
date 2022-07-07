@@ -1,11 +1,6 @@
 @import "../../utils/colors.scss";
 
 .project-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: calc(100vh - 60px - 20px - 20px);
-
   > * {
     width: 100%;
 
