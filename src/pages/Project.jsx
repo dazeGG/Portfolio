@@ -16,8 +16,8 @@ const Project = () => {
 
   return (
     <div className="wrapper">
-      <div className={style["project-wrapper"]}>
-        <div className={style.title}>
+      <div className={style.project}>
+        <div className={style.project__title}>
           <b>{project.title}</b>|<span>{project.What_is_it}</span>
           <span
             className={
@@ -29,7 +29,7 @@ const Project = () => {
             {(project.isOpenSource ? "" : "Not ") + "Open Source"}
           </span>
         </div>
-        <div className={style.content}>
+        <div className={style.project__content}>
           <div className={style.description}>
             <b>Описание:</b> {project.description}
           </div>
@@ -51,7 +51,7 @@ const Project = () => {
             {(project.Stack_full || []).join(", ")}
           </div>
         </div>
-        <div className={style.links}>
+        <div className={style.project__links}>
           <div className={style.links__code}>
             <a
               className={project.isOpenSource ? "" : style.innactive}
