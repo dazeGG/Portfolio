@@ -1,0 +1,13 @@
+@import "../../utils/colors.scss";
+
+.content {
+  text-align: center;
+
+  > h1 {
+    font-size: 120px;
+  }
+
+  > p {
+    font-size: 24px;
+  }
+}
