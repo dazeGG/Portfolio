@@ -14,19 +14,17 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="wrapper">
-      <div className={style.projects__cards}>
-        {projects.map((project) => (
-          <ProjectCard
-            key={project._id}
-            link={`/project/${project.title}`}
-            title={project.title}
-            stack={project.Stack}
-            isOpenSource={project.isOpenSource}
-            whatIsIt={project.What_is_it}
-          />
-        ))}
-      </div>
+    <div className={style.projects__cards}>
+      {projects.map((project) => (
+        <ProjectCard
+          key={project._id}
+          link={`/project/${project.title}`}
+          title={project.title}
+          stack={project.Stack}
+          isOpenSource={project.isOpenSource}
+          whatIsIt={project.What_is_it}
+        />
+      ))}
     </div>
   );
 };

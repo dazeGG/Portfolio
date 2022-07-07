@@ -10,12 +10,17 @@ const App = () => {
     <BrowserRouter>
       <Header />
       <main className="container">
-        <Routes>
-          {routes.map(({ path, Element }) => (
-            <Route key={path} path={path} element={Element} />
-          ))}
-          <Route path="*" element={<Navigate to={PAGE_404_ROUTE} replace />} />
-        </Routes>
+        <div className="wrapper">
+          <Routes>
+            {routes.map(({ path, Element }) => (
+              <Route key={path} path={path} element={Element} />
+            ))}
+            <Route
+              path="*"
+              element={<Navigate to={PAGE_404_ROUTE} replace />}
+            />
+          </Routes>
+        </div>
       </main>
       <Footer />
     </BrowserRouter>
