@@ -1,0 +1,31 @@
+// * DEFAULT COLORS
+
+$white: #eee;
+$black: #111111;
+
+$dark-blue: #0d121d;
+
+$red: #ff3c3c;
+$green: #33e94e;
+$blue: #2970ff;
+
+// * DEPENDENCIES
+
+$primary: $white;
+$accent: $green;
+
+$font: $primary;
+$bg: $dark-blue;
+
+$card-bg: mix($bg, $blue, 95%);
+
+// * LANGUAGES
+
+$python: #3572a5;
+$javaScript: #f1e05a;
+$react: #61dafb;
+$nodejs: #84ba64;
+$html: #e34c26;
+$css: #563d7c;
+$sass-scss: #cf649a;
+$less: #1d365d;

@@ -1,0 +1,64 @@
+> .python {
+  border-color: $python;
+
+  &::after {
+    background-color: $python;
+  }
+}
+
+> .javascript {
+  border-color: $javaScript;
+
+  &::after {
+    background-color: $javaScript;
+  }
+}
+
+> .react {
+  border-color: $react;
+
+  &::after {
+    background-color: $react;
+  }
+}
+
+> .nodejs {
+  border-color: $nodejs;
+
+  &::after {
+    background-color: $nodejs;
+  }
+}
+
+> .html {
+  border-color: $html;
+
+  &::after {
+    background-color: $html;
+  }
+}
+
+> .css {
+  border-color: $css;
+
+  &::after {
+    background-color: $css;
+  }
+}
+
+> .sass,
+> .scss {
+  border-color: $sass-scss;
+
+  &::after {
+    background-color: $sass-scss;
+  }
+}
+
+> .less {
+  border-color: $less;
+
+  &::after {
+    background-color: $less;
+  }
+}

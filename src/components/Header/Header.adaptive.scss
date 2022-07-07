@@ -1,0 +1,17 @@
+@media only screen and (max-width: 480px) {
+  header.header {
+    .header-wrapper {
+      > .header-links-for__o__for {
+        > .header-links {
+          > ul {
+            padding: 0;
+            border-right: none;
+          }
+        }
+        > .header-for__o__for {
+          display: none;
+        }
+      }
+    }
+  }
+}

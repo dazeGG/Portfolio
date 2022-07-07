@@ -1,0 +1,13 @@
+.projects__cards-wrapper {
+  display: grid;
+  align-items: center;
+  min-height: calc(100vh - 60px - 20px - 20px);
+}
+
+.projects__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+@import "./adaptive/Projects.adaptive.scss";
